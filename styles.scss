@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+$primary-color: #5dc4d1;
+$secondary-color: #012e49;
+$text-color: #383537; 
+$font: "Sofia", sans-serif;
+
+
+nav {
+    background-color: $secondary-color
+    display flex;
+    justify-content: space-around;
+
+    ul {
+        list-style: none;
+    
+        a {
+            color: white;
+        
+            &:hover {
+                color: gold;
+                text-decoration: underline;
+            }
+        }
+    }    
+}
+
+.cover {
+    background-color: $secondary-color;
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+}
