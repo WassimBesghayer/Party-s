@@ -1,12 +1,3 @@
-@media(max-width:800px) {
-    .Sweeties{
-        display: flex;
-        flex-direction: column !important;
-       
-        background-color: red;
-    }
-}
-
 nav {
     background-color: #012e49;
     display: flex;
@@ -120,4 +111,19 @@ footer {
         justify-content: space-around;
         padding-bottom: 40px;
    
+    }
+
+    @media(max-width: 864px){
+        nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .cover{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
